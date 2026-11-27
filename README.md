@@ -4,7 +4,7 @@ This public repository powers the [ByteShake678 organization homepage](https://g
 
 - `profile/README.md` contains the organization profile content.
 - `assets/` contains the public brand assets used by the profile.
-- `.github/workflows/` validates the profile and handles issue assignment.
+- `.github/workflows/` runs profile quality checks on pushes and pull requests.
 - `scripts/validate_profile.py` checks required files, README references, SVG syntax, and PNG signatures.
 
 Run the local validation with:
